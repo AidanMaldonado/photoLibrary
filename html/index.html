@@ -15,22 +15,19 @@
     <title>PhotoLab</title>
   </head>
   <body>
-
+    <!-- Page header -->
     <div class="header">
+      <!-- Title -->
       <h1>PhotoLab</h1>
       <hr>
-      <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-secondary active">
-          <input type="radio" name="options" id="city" autocomplete="off" checked> City
-        </label>
-        <label class="btn btn-secondary">
-          <input type="radio" name="options" id="Beach" autocomplete="off"> Beach
-        </label>
-        <label class="btn btn-secondary">
-          <input type="radio" name="options" id="Tech" autocomplete="off"> Tech
-        </label>
-      </div>
+
+      <!-- Nav Buttons -->
+      <button onclick="clickTag()" type="button" id="city" class="btn btn-outline-secondary">City</button>
+      <button type="button" id="beach" class="btn btn-outline-secondary">Beach</button>
+      <button type="button" id="mountain" class="btn btn-outline-secondary">Mountain</button>
     </div>
+
+    <!-- Images -->
     <div class="container">
       <img class="city" src="https://images.unsplash.com/photo-1491001224967-2c0ee18a7c42?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=13e2b3f5050607f9bc69d295e536aa19&auto=format&fit=crop&w=934&q=80">
       <img class="city" src="https://images.unsplash.com/photo-1511914340036-9eafebe977f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0573d688f694c2851412ed020d69c5d&auto=format&fit=crop&w=929&q=80">
@@ -42,6 +39,8 @@
       <img class="mountain" src="https://images.unsplash.com/photo-1508669232496-137b159c1cdb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e05e923eadbc20a00da3a1a441dd3e3&auto=format&fit=crop&w=934&q=80">
       <img class="mountain" src="https://images.unsplash.com/photo-1508913449378-01b9b8174e46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88038a2b587ee6134310c479b7acc3d5&auto=format&fit=crop&w=934&q=80">
     </div>
+
+    <!-- Footer -->
     <div class="footer">
       <p>PhotoLab by Aidan Maldonado</p>
     </div>
